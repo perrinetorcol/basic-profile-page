@@ -1,0 +1,106 @@
+body {
+  background-color: #f4f1de;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #3d405b;
+  line-height: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins';
+  line-height: 32px;
+}
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h3 {
+  color: #81b29a;
+  font-weight: 400;
+}
+
+@media (max-width: 1600px) {
+.container {
+  width: 700px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 720px) {
+.container {
+  width: 500px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+  width: 300px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+}
+
+.card {
+background: rgba(255, 255, 255, 0.836);
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+margin: 20px auto;
+padding: 20px;
+}
+
+#avatar-header {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#header p {
+    margin-bottom: 20px;
+}
+
+#btn-discover {
+  padding: 16px 32px;
+}
+
+.btn-orange {
+  color: #f4f1de;
+  background-color: #e07a5f;
+  border: solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+}
+
+.btn-orange:hover {
+    color: #e07a5f;
+    background-color: #f4f1de;
+    border: solid transparent;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.card li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.card li a {
+    color: #e07a5f;
+    font-size: 40px;
+}
+
+.card li a:hover {
+    color: #f4f1de;
+}
